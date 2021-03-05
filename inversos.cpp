@@ -11,6 +11,7 @@ int main(void){
 void print(int min, int max){
   double sum;
   double x;
+
   for(double i=min; i<=max ; i++){
     x=1/(i*i);
     sum+=x;
